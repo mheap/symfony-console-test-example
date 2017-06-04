@@ -1,0 +1,22 @@
+{
+    "name": "mheap/sam-knows",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Heap",
+            "email": "m@michaelheap.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "mheap\\": "src"
+        }
+    }
+}
